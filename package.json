@@ -1,0 +1,16 @@
+{
+  "name": "siteminder-mail-server-mailgun",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
